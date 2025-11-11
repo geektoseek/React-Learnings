@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1 {
+    color: rgb(31, 7, 7);
+    font-size: 72px;
+    line-height: 1.4em;
+}
+
+/* 
+li {
+    background: #000;
+} */
+
+button {
+    background-color: rgb(247, 247, 228);
+    border: 1px double #333;
+    outline: 1px #333;
+    outline-offset: 3px;
+    padding: 0.4rem 2rem;
+}
