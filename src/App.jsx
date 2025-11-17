@@ -2,7 +2,7 @@ import React from 'react';
 // import HooksNumber from './Components/HooksNumber';
 import ExampleCounter from './Components/ExampleCounter';
 // import Rules from "./components/RulesJSX";
-// import Greeting from "./components/Greeting";
+import Greeting from "./components/Greeting";
 // import ProductInfo from "./components/productInfo"
 // import Listandmap from './Components/listandmap';
 // import Userlist from './Components/Userlist';
@@ -33,7 +33,8 @@ const App = () => {
 
     return (
         <>
-            <ExampleCounter />
+            {/* <ExampleCounter /> */}
+            <Greeting />
         </>
     );
 };

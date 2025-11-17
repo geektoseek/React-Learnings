@@ -52,7 +52,7 @@ const HooksNumber = () => {
                 ))}
             </ul>
             <button onClick={changedMe}>Add Movies</button>
-            <button onClick={removeDuplicate}>Remove Duplicate Movie</button>
+            <button onClick={removeDuplicate}>Remove Doubled/Duplicate Movie</button>
         </>
     );
 };
