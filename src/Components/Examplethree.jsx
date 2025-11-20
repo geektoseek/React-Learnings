@@ -19,7 +19,7 @@ const Examplethree = () => {
     return (
         <>
             <h1>Your Name is : {name}</h1>
-            <input type="text" name="name" value={name} onChange={handleChange} placeholder='PLease Enter Your Orignal Name' />
+            <input type="text" name="name" value={name} onChange={handleChange} placeholder='Please Enter Your Orignal Name' />
             <button onClick={handleClear}>Clear Name</button>
         </>
     )

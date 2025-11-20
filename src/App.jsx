@@ -32,16 +32,15 @@ import ButtonFunction from './Components/ButtonFunction';
 import Components1 from './Components/components1';
 import Components2 from './Components/Components2';
 import Examplethree from './Components/Examplethree';
-
+import PracticeCounter from './Components/PracticeCounter'
+import TodoApp from './Components/TodoApp';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            {/* <Components1 count={count} onClickHandler={() => setCount(count + 1)} />
-            <Components2 count={count} onclickDecrement={() => setCount(count - 1)} /> */}
-            <Examplethree />
+            <TodoApp />
         </>
     );
 };

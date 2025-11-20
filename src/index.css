@@ -21,3 +21,8 @@ button {
     outline-offset: 3px;
     padding: 0.4rem 2rem;
 }
+
+input {
+    background-color: aliceblue;
+    border: 1px solid #333;
+}
