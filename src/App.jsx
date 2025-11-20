@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component, useState } from 'react';
 // import HooksNumber from './Components/HooksNumber';
-import ExampleCounter from './Components/ExampleCounter';
+// import ExampleCounter from './Components/ExampleCounter';
 // import Rules from "./components/RulesJSX";
-import Greeting from "./components/Greeting";
+// import Greeting from "./components/Greeting";
 // import ProductInfo from "./components/productInfo"
 // import Listandmap from './Components/listandmap';
 // import Userlist from './Components/Userlist';
@@ -28,13 +28,18 @@ import Greeting from "./components/Greeting";
 //     { Names: "Zainab", Age: 23, Course: "Web and Mobile", Batch: "October", Grade: "D" },
 //     { Names: "Amna", Age: 24, Course: "Web and Mobile", Batch: "October", Grade: "E" },
 // ];
+import ButtonFunction from './Components/ButtonFunction';
+import Components1 from './Components/components1';
+import Components2 from './Components/Components2';
+
 
 const App = () => {
+    const [count, setCount] = useState(0);
 
     return (
         <>
-            {/* <ExampleCounter /> */}
-            <Greeting />
+            <Components1 count={count} onClickHandler={() => setCount(count + 1)} />
+            <Components2 count={count} onclickDecrement={() => setCount(count - 1)} />
         </>
     );
 };
