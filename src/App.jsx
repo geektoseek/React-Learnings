@@ -34,13 +34,14 @@ import Components2 from './Components/Components2';
 import Examplethree from './Components/Examplethree';
 import PracticeCounter from './Components/PracticeCounter'
 import TodoApp from './Components/TodoApp';
+import TodoAppTest from './Components/TodoAppTest';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <TodoApp />
+            <TodoAppTest />
         </>
     );
 };
