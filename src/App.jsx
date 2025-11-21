@@ -28,13 +28,13 @@ import React, { Component, useState } from 'react';
 //     { Names: "Zainab", Age: 23, Course: "Web and Mobile", Batch: "October", Grade: "D" },
 //     { Names: "Amna", Age: 24, Course: "Web and Mobile", Batch: "October", Grade: "E" },
 // ];
-import ButtonFunction from './Components/ButtonFunction';
-import Components1 from './Components/components1';
-import Components2 from './Components/Components2';
-import Examplethree from './Components/Examplethree';
-import PracticeCounter from './Components/PracticeCounter'
-import TodoApp from './Components/TodoApp';
-import TodoAppTest from './Components/TodoAppTest';
+// import ButtonFunction from './Components/ButtonFunction';
+// import Components1 from './Components/components1';
+// import Components2 from './Components/Components2';
+// import Examplethree from './Components/Examplethree';
+// import PracticeCounter from './Components/PracticeCounter'
+// import TodoApp from './Components/TodoApp';
+// import TodoAppTest from './Components/TodoAppTest';
 import Profile from './Components/Profile';
 
 
