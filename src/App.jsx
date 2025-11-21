@@ -35,13 +35,15 @@ import Examplethree from './Components/Examplethree';
 import PracticeCounter from './Components/PracticeCounter'
 import TodoApp from './Components/TodoApp';
 import TodoAppTest from './Components/TodoAppTest';
+import Profile from './Components/Profile';
+
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <TodoAppTest />
+            <Profile />
         </>
     );
 };

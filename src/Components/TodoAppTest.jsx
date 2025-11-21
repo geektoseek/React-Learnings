@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-
 const TodoAppTest = () => {
-
     const [todos, setTodos] = useState([]);
     const [inputValues, setInputValues] = useState('');
     const SubmitHandle = e => {
@@ -10,10 +8,7 @@ const TodoAppTest = () => {
             setTodos([...todos, inputValues]);
             setInputValues('');
         }
-
     }
-
-
     return (
         <>
             <h1>My Today Todo List</h1>
@@ -29,5 +24,4 @@ const TodoAppTest = () => {
         </>
     )
 }
-
 export default TodoAppTest
