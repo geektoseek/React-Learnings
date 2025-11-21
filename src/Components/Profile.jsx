@@ -9,11 +9,10 @@ const Profile = () => {
 
     const handleChange = e => {
         const { name, value } = e.target;
-        // ✔ Extract the field name + new value properly
 
         setUser(prev => ({
-            ...prev,        // ✔ Spread previous state
-            [name]: value   // ✔ Update only the changed field
+            ...prev,
+            [name]: value
         }));
     };
     return (
