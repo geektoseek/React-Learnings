@@ -37,8 +37,9 @@ import React, { Component, useState } from 'react';
 // import TodoAppTest from './Components/TodoAppTest';
 // import Profile from './Components/Profile';
 
-import ShoppingList from './Components/ShoppingList';
+// import ShoppingList from './Components/ShoppingList';
 
+import PopUpCopied from './Components/PopUpCopied';
 import CopyInput from './Components/CopyInput';
 
 const App = () => {
@@ -47,6 +48,7 @@ const App = () => {
     return (
         <>
             <CopyInput />
+            <PopUpCopied />
         </>
     );
 };
