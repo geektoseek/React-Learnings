@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    padding: 10px;
+    margin: 10px;
+}
 
 h1 {
     color: rgb(31, 7, 7);

@@ -39,13 +39,14 @@ import React, { Component, useState } from 'react';
 
 import ShoppingList from './Components/ShoppingList';
 
+import CopyInput from './Components/CopyInput';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <ShoppingList />
+            <CopyInput />
         </>
     );
 };
