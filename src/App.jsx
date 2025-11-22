@@ -35,7 +35,9 @@ import React, { Component, useState } from 'react';
 // import PracticeCounter from './Components/PracticeCounter'
 // import TodoApp from './Components/TodoApp';
 // import TodoAppTest from './Components/TodoAppTest';
-import Profile from './Components/Profile';
+// import Profile from './Components/Profile';
+
+import ShoppingList from './Components/ShoppingList';
 
 
 const App = () => {
@@ -43,7 +45,7 @@ const App = () => {
 
     return (
         <>
-            <Profile />
+            <ShoppingList />
         </>
     );
 };
