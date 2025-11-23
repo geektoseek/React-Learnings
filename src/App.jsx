@@ -39,16 +39,17 @@ import React, { Component, useState } from 'react';
 
 // import ShoppingList from './Components/ShoppingList';
 
-import PopUpCopied from './Components/PopUpCopied';
-import CopyInput from './Components/CopyInput';
+// import PopUpCopied from './Components/PopUpCopied';
+// import CopyInput from './Components/CopyInput';
+
+import Switcher from './Components/Switcher';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <CopyInput />
-            <PopUpCopied />
+            <Switcher />
         </>
     );
 };
