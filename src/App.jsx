@@ -43,14 +43,16 @@ import React, { Component, useState } from 'react';
 // import CopyInput from './Components/CopyInput';
 
 // import Switcher from './Components/Switcher';
-import UseEffact from './Components/UseEffact';
+// import UseEffact from './Components/UseEffact';
+
+import DataFetch from './Components/DataFetch';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <UseEffact ></UseEffact>
+            <DataFetch />
         </>
     );
 };
