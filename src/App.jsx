@@ -42,14 +42,15 @@ import React, { Component, useState } from 'react';
 // import PopUpCopied from './Components/PopUpCopied';
 // import CopyInput from './Components/CopyInput';
 
-import Switcher from './Components/Switcher';
+// import Switcher from './Components/Switcher';
+import UseEffact from './Components/UseEffact';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <Switcher />
+            <UseEffact ></UseEffact>
         </>
     );
 };
