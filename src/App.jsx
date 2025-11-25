@@ -45,14 +45,17 @@ import React, { Component, useState } from 'react';
 // import Switcher from './Components/Switcher';
 // import UseEffact from './Components/UseEffact';
 
-import DataFetch from './Components/DataFetch';
+// import DataFetch from './Components/DataFetch';
+import DataFetching from './Components/DataFetching';
 
 const App = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <DataFetch />
+            <DataFetching />
+
+
         </>
     );
 };
