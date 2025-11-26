@@ -36,26 +36,25 @@ import React, { Component, useState } from 'react';
 // import TodoApp from './Components/TodoApp';
 // import TodoAppTest from './Components/TodoAppTest';
 // import Profile from './Components/Profile';
-
 // import ShoppingList from './Components/ShoppingList';
-
 // import PopUpCopied from './Components/PopUpCopied';
 // import CopyInput from './Components/CopyInput';
-
 // import Switcher from './Components/Switcher';
 // import UseEffact from './Components/UseEffact';
-
 // import DataFetch from './Components/DataFetch';
 // import DataFetching from './Components/DataFetching';
+// import FoodApi from './Components/Basic/FoodApi';
 
-import FoodApi from './Components/FoodApi';
+
+import Componentone from './Components/ContextApi/Componentone';
+import ComponentTwo from './Components/ContextApi/ComponentTwo';
 
 const App = () => {
 
     return (
         <>
-            <FoodApi />
-
+            <Componentone />
+            <ComponentTwo />
         </>
     );
 };
