@@ -7,8 +7,7 @@ const DataFetching = () => {
         async function getMeals() {
             const requests = [];
 
-            // Fetch 10 random meals
-            for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < 40; i++) {
                 requests.push(
                     fetch("https://www.themealdb.com/api/json/v1/1/random.php").then((r) =>
                         r.json()
@@ -31,10 +30,8 @@ const DataFetching = () => {
                 🍽️ Random Food Recipes
             </h1>
 
-            {/* GRID: 3 columns */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {meals.map((meal) => {
-                    // Collect ingredients dynamically
                     const ingredients = [];
                     for (let i = 1; i <= 20; i++) {
                         const ing = meal[`strIngredient${i}`];
@@ -49,14 +46,12 @@ const DataFetching = () => {
                             key={meal.idMeal}
                             className="bg-white shadow-md rounded-xl overflow-hidden border hover:shadow-xl transition"
                         >
-                            {/* IMAGE */}
                             <img
                                 src={meal.strMealThumb}
                                 alt={meal.strMeal}
                                 className="w-full h-48 object-cover"
                             />
 
-                            {/* CONTENT */}
                             <div className="p-4">
                                 <h2 className="text-lg font-bold mb-2">{meal.strMeal}</h2>
 
@@ -67,7 +62,6 @@ const DataFetching = () => {
                                     ))}
                                 </ul>
 
-                                {/* Instructions Toggle */}
                                 <details className="cursor-pointer">
                                     <summary className="font-semibold text-blue-600 hover:underline">
                                         View Instructions
