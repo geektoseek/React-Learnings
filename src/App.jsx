@@ -46,15 +46,15 @@ import React, { Component, useState } from 'react';
 // import UseEffact from './Components/UseEffact';
 
 // import DataFetch from './Components/DataFetch';
-import DataFetching from './Components/DataFetching';
+// import DataFetching from './Components/DataFetching';
+
+import FoodApi from './Components/FoodApi';
 
 const App = () => {
-    const [count, setCount] = useState(0);
 
     return (
         <>
-            <DataFetching />
-
+            <FoodApi />
 
         </>
     );
