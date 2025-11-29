@@ -1,12 +1,14 @@
-import React from 'react';
-import { sata } from './Componentone';
+import React from 'react'
+import { data } from './Componentone'
 
 const ComponentTwo = () => {
     return (
-        <sata.Consumer>
-            {(name) => <h2>Hello My Name is {name}</h2>}
-        </sata.Consumer>
-    );
-};
+        <data.Consumer>
+            {(lolo) => {
+                <h2>{lolo}</h2>
+            }}
+        </data.Consumer>
+    )
+}
 
-export default ComponentTwo;
+export default ComponentTwo

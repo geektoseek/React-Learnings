@@ -1,18 +1,14 @@
-import React, { createContext } from 'react';
-// import { sata } from './MyContext';
-import ComponentTwo from './ComponentTwo';
+import { createContext } from 'react'
+import React from 'react'
 
-
-export const sata = createContext();
+export const data = createContext();
 
 const Componentone = () => {
-    const name = "zero";
-
     return (
-        <sata.Provider value={name}>
-            <ComponentTwo />
-        </sata.Provider>
-    );
-};
+        <data.Provider value={lolo}>
+            <h1>zero</h1>
+        </data.Provider>
+    )
+}
 
 export default Componentone;
